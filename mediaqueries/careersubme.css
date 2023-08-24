@@ -1,0 +1,52 @@
+@media all and (max-width:900px) {
+    
+    .pathway {
+        display: none;
+    }
+
+}
+
+
+
+@media all and (max-width:600px) {
+  
+  .req-respon{
+    display:flex;
+    flex-direction: column;
+  }
+  .responsibilities-requirment{
+    width: 95%;
+    margin:0.5rem 0;
+  }
+    .textarea-body p{
+        display: flex;
+        flex-flow: row;
+        width:400px;
+    }
+    .textarea-body .question{
+      width:25rem;
+      display: flex;
+      flex-direction:column;
+  }
+  .textarea-body textarea{
+    resize: none;
+    outline: none;
+    padding: 0 0.4rem;
+    width: 350px;
+    height: 15vh;
+ }
+    .textarea-body{
+        width:50%;
+       margin: 0;
+       padding: 0;
+    }
+    .pathway{
+        display: none;
+    }
+
+    .textarea-body {
+        padding:0;
+    
+    }
+    
+}

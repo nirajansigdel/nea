@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('./var.css');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#body{
+    background-color: var(--background);
+}
+.vacaneiesnumber{
+    background-color: var(--off-blue);
+    padding-left: 1rem;
+}
+
+.vacaneiesnumber p{
+    color: var(--white);
+    font-weight: 500;
+}
+#req-respon{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-flow: row wrap;
+    margin: 5rem 0;
+}
+.formtitle{
+    width: 100%;
+}
+.application-title h3{
+    color: var(--black);
+    text-align: center;
+}
+.responsibilities-requirment{
+    width: 40%;
+    border: 1px solid var(--off-blue);
+    border-radius: 8px;
+
+}
+.re-title{
+    background-color: var(--off-blue);
+    border-radius: 8px 8px 0 0 ;
+}
+.re-title h3{
+    color: var(--white);
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 700;
+    padding: 0.5rem 0;
+}
+.re-body p{
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family: var(--text-font);
+    padding: 0.7rem 0.3rem;   
+}
+
+.application-body{
+    display: flex;
+    justify-content:space-around;
+    flex-flow: row wrap;
+}
+.question{
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.textarea-body textarea{
+    resize: none;
+    outline: none;
+    padding: 0 0.4rem;
+    width: 78.9%;
+    height: 19.1vh;
+ }
+.gender{
+    width: 40%;
+    height: 4vh;
+}
+
+
+.pathway {
+    height: 115vh;
+ width:40%;
+ display:flex;
+ flex-direction: column;
+ flex-flow: column wrap;
+}
+.pathway img{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    object-fit: contain;
+}
+#submit{
+    width: 400px;
+    background-color: var(--off-blue);
+    font-size: 1rem;
+    padding: 0.4rem 2rem;
+    border: 1px solid white;
+    border-radius:4px;
+    color: var(--white);
+    margin: 2% 0 0 78%;  
+}

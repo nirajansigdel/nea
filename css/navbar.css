@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('./var.css');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", "sans-serif";
+}
+
+body {
+    width: 100%;
+    font-family: var(--text-font);
+    background-color: F8FCFF;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: var(--white);
+}
+
+.nav-logo img {
+    display: flex;
+    top: 15%;
+
+}
+
+.logo {
+    margin: 0 1rem;
+}
+
+.Navbar__Link-toggle {
+    display: none;
+
+}
+
+#nav {
+    padding: 0.5rem 0.3rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+    flex-flow: row wrap;
+    font-family: var(--text-font);
+}
+
+
+.nav-item {
+    padding: 0.5rem 0;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: var(--black);
+
+}
+
+nav .active a {
+    color: var(--off-blue);
+
+}
+
+.nav-item a:hover {
+    color: var(--off-blue);
+    text-shadow: 0.7px 0px var(--off-blue);
+    border-bottom: 3px solid var(--black);
+    
+  
+}

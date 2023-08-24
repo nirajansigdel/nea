@@ -1,0 +1,256 @@
+@media all and (max-width: 900px) {
+    .what-todo-body-col1 {
+        width: 60%;
+    }
+
+    .what-todo-body-col2 {
+        width: 37%;
+        height: 70vh;
+        padding-top: 10rem;
+
+    }
+
+    .name-position-fontaawesome {
+        text-align: center;
+        padding-left: 0.5rem;
+    }
+
+
+
+
+    #ourvalue {
+        background: url(../image/aboutusimage/bussinespic.jpg);
+        height: 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: opacity(90%);
+    }
+
+    .ourvalue-container {
+        display: flex;  
+        flex-flow: nowrap;
+        width: 96%;
+        padding-left: 4rem;
+
+    }
+
+    .ourvalue-container-image p {
+        color: var(--off-blue);
+        text-align: center;
+        font-size: 1.3rem;
+        padding-left: 0.1rem;
+        font-weight: 700;
+        letter-spacing: 1px;
+
+    }
+    .ourvalue-container-image{
+        width: 50%;
+        height: 30vh;
+    }
+.ourvalue-container-image img{
+    width: 100%;
+    height:100%;
+}
+
+
+}
+
+
+@media all and (max-width: 600px) {
+
+    .what-todo .title h2 {
+        padding: 0;
+        margin: 0;
+
+    }
+
+
+    .what-todo-body-col1 p {
+         padding: 0.1rem 1rem;
+         display: flex;
+         justify-content: center;  
+         align-items: center; 
+    
+    }
+
+    .what-todo-body {
+
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+        padding: 0;
+        margin: 0;
+        z-index: -1;
+    }
+
+
+    .what-todo-body-col1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .what-todo-body-col2 {
+        width: 100%;
+        transform: translateY(-26%);
+    }
+
+    .caption p {
+        font-size: 1rem;
+    }
+
+    .process-body {
+        transform: translateY(-20%);
+    }
+
+
+    .ourleader-container-body {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        margin: 2rem 0;
+        height: 50vh;
+    }
+
+    .ourleader-body-image {
+        width: 200px;
+        height: 90vh;
+        margin-left: 9%;
+        transform: translateY(7%);
+    }
+
+    .ourleader-body-row {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+   .ourleader-body-awesome i {
+    margin: 0.4rem 0;
+   }
+    .ourmember-container-body {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .ourmembers-img {
+        width: 55%;
+        height: 60%;
+        margin-left: 15%;
+
+    }
+
+    .name-position-fontaawesome {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-left: 0.4rem;
+
+    }
+
+    .ourmember-fontawesome {
+        display: flex;
+        flex-flow: wrap;
+        justify-content: space-between;
+        width: 33%;
+        padding: 0.1rem 0.1rem 0;
+
+
+    }
+
+    #ourvalue {
+        background:url(none);
+        height: 100%;
+        width: 100%;
+    }
+    #ourvalue h2{
+
+        margin: 0rem;
+    
+    }
+
+    .ourvalue-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 96%;
+        padding-left: 4rem;
+    
+
+    }
+
+    .ourvalue-container-image {
+        width: 60%;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0 0 0 3.2rem;
+    }
+    .imagename{
+        padding: 0;
+        margin: 0;
+        transform: translateY(-40px);
+    }
+
+
+
+    #about-calltoaction {
+
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .about-calltoaction-body {
+        width: 100%;
+        padding: 0.1rem 3%;
+    }
+
+    .about-calltoaction-body h1 {
+        font-family: Poppins;
+        font-size: 1rem;
+        font-weight: 500;
+
+    }
+
+    .about-calltoaction-body #about-p {
+        font-size: 0.8rem;
+    }
+
+
+    #about-calltoaction button {
+        margin: 2%;
+    }
+
+    #startyourjourney {
+        margin: 2%;
+        width: 70%;
+        font-size: 0.8rem;
+        align-items: center;
+
+
+
+
+    }
+
+    #startyourjourney:hover {
+        font-size: 0.8rem;
+        margin: 1%;
+        width: 70%;
+
+    }
+
+
+}

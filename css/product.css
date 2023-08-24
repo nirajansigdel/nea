@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('./var.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#ourproduct {
+    padding: 0 3%;
+    background-color: rgba(42, 174, 255, 0.05);
+    width: 99%;
+    background: url(../image/productsvg.svg);
+    background-size: cover;
+
+
+}
+
+.ourproduct-container {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+.ourproduct-container-body {
+    width: 20%;
+    background-color: var(--white);
+    border: 1px solid var(--off-white);
+    box-shadow: 3px 3px 7px 2px var(--off-white);
+    border: 8px;
+    box-sizing: border-box;
+    height: fit-content;
+    margin: 2rem;
+}
+
+.ourproduct-container-body-image {
+    width: 60%;
+    height: 15vh;
+    border: 1px solid var(--off-blue);
+    display: flex;
+    justify-items: center;
+    margin: 0.5rem 3rem;
+    border-radius: 12px;
+
+}
+
+.ourproduct-contain-body-text {
+    width: 90%;
+    display: flex;
+    flex-flow: column wrap;
+    font-weight: 400;
+    font-size: 16px;
+
+    padding: 0 1rem 0 1.2rem;
+}
+
+#view {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 0 3rem 0;
+    color: var(--off-blue);
+}
+
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 0.1rem 0;
+}
+
+#appname {
+    text-align: center;
+    font-size: 1.4rem;
+    padding: 50% 0 5% 35%;
+}
+
+.ourproduct-contain-body-text h3 {
+    color: rgba(6, 105, 172, 1);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.ourproduct-contain-body-text p {
+    font-size: 1rem;
+    color: black;
+    padding: 0.4rem 0;
+}
+
+.ourproduct-contain-playstorebutton {
+    width: 100%;
+    display: flex;
+    flex-flow: wrap;
+    margin-bottom: 3rem;
+}
+
+.ourproduct-contain-playstorebutton a {
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.ourproduct-contain-playstorebutton p {
+    padding-left: 0.4rem;
+}
+
+
+#font-awesome {
+    padding: 0.4rem 2rem 0 0.2rem;
+    color: var(--black);
+
+}

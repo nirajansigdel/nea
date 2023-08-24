@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/var.css">
+    <link rel="stylesheet" href="../css/about.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/career.css">
+    <link rel="stylesheet" href="../css/careersub.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="../mediaqueries/footerme.css">
+    <link rel="stylesheet" href="../mediaqueries/contactme.css">
+    <link rel="stylesheet" href="../mediaqueries/homeme.css">
+    <link rel="stylesheet" href="../mediaqueries/productme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/AlertifyJS/1.13.1/alertify.js"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css"/>
+    <!-- Default theme -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/default.min.css"/>
+    <!-- Semantic UI theme -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/semantic.min.css"/>
+    <!-- Bootstrap theme -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/bootstrap.min.css"/>
+    <title>NEA</title>
+</head>
+
+<body>
+    <header id="nav">
+        <div class="nav-bar">
+            <div class="nav-item nav-item-brand">
+                <div class="logo"> <img src="../image/nealogo.png" alt="" srcset=""></div>
+            </div>
+            <div class="nav-item Navbar__Link-toggle" onclick="this.parentNode.children[2].classList.toggle('active')">
+                <i class="fas fa-bars"></i>
+            </div>
+            <nav class="nav-menu">
+                <div class="nav-item">
+                    <a class="nav-link" href="../index.html">Home</a>
+                </div>
+                <div class="nav-item">
+                    <a class="nav-link" href="about.html">About Us</a>
+                </div>
+                <div class="nav-item">
+                    <a class="nav-link" href="infromation.html">Information</a>
+                  </div>
+                <div class="nav-item">
+                    <a class="nav-link" href="career.html">Vacancy</a>
+                </div>
+                <div class="nav-item active">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="form-section">
+        <div class="formtitle">
+            <h2>Contact Us</h2>
+        </div>
+        <div class="form-container">
+            <div class="form-container-textarea">
+                <form action="#" onsubmit="return validation()">
+                <table>
+                    <tr class="inputbox">
+                        <td><span>Name*</span></td>
+                        <td><input type="text" name="user" id="user" required="required" placeholder="Your Name"></td>
+                          <td><span class="warning" id="username"></span></td>
+                    </tr>
+                    <tr class="inputbox">
+                        <td><span>Address*</span></td>
+                        <td><input type="text" name="address" id="address" required="required" placeholder="Your address"></td>
+                        <td><span  class="warning" id="addressspan"></span></td>
+                        
+
+                    </tr>
+                    <tr class="inputbox">
+                        <td><span>Contact Us*</span></td>
+                        <td><input type="text" name="contact" id="contact" required="required" placeholder="+97700000000"></td>
+                        <td><span  class="warning" id="contactspan"></span></td>
+                    
+                    </tr>
+                    <tr class="inputbox">
+                        <td><span>Email Address*</span></td>
+                        <td><input type="text" name="email" id="email" required="required"
+                                placeholder="reflexitsolution@gamil.com"></td>
+                        <td><span class="warning"  id="emailspan"></span></td>
+                                
+                    </tr>
+                    <tr class="inputbox">
+                        <td><span>Subject*</span></td>
+                        <td><input type="text" name="" id="" required="required" placeholder="interest topic"></td>
+                    <td><span  class="warning" id="subjectspan"></span></td>
+                        
+                    </tr>
+                    <tr class="inputbox">
+                        <td><span>Your message*</span></td>
+                        <td><textarea name="" id="" cols="30" rows="10" placeholder="your message for Us"></textarea>
+                        </td>
+
+                    </tr>
+
+                </table>
+                <input type="submit" name="submit" id="submit">
+            </form>
+            </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56516.316259512125!2d85.29111323691909!3d27.708955944407812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb198a307baabf%3A0xb5137c1bf18db1ea!2sKathmandu%2044600!5e0!3m2!1sen!2snp!4v1655888136186!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+    <!--Start of footer section-->
+    <section id="footer">
+        <div class="footer-about">
+            <div class="footer-title">
+                <h3>About Us</h3>
+            </div>
+            <div class="about-description">
+                <p> The Nepal Electricity Authority (NEA) is responsible for several key
+                    functions related to the generation, transmission, and distribution of
+                    electricity in Nepal. Here are some of the primary tasks and
+                    activities undertaken by NEA:Electricity Generation: NEA is involved
+                    in the generation of electricity through its own hydropower projects
+                    and thermal power plants.Transmission and Grid Operation: NEA operates
+                    and maintains the national transmission grid, which connects power
+                    plants to substations and major load centers across the country.</p>
+            </div>
+            <div class="about-link">
+                <span id="footer-fontawesome"
+                  ><a class="about-link-fontawesome" href="https://www.nea.org.np/"
+                    ><i class="fa-brands fa-linkedin"></i></a
+                ></span>
+                <span id="footer-fontawesome"
+                  ><a class="about-link-fontawesome" href="https://www.nea.org.np/"
+                    ><i class="fa-brands fa-facebook"></i></a
+                ></span>
+                <span id="footer-fontawesome"
+                  ><a class="about-link-fontawesome" href="https://www.nea.org.np/"
+                    ><i class="fa-brands fa-twitter"></i></a
+                ></span>
+                <span id="footer-fontawesome"
+                  ><a class="about-link-fontawesome" href="https://www.nea.org.np/"
+                    ><i class="fa-solid fa-envelope"></i></a
+                ></span>
+              </div>
+
+        </div>
+        <div class="aboutright">
+            <div class="aboutright-body">
+                <div class="footer-title">
+                    <h3>Quick link</h3>
+                </div>
+                <ul class="forfooterlink">
+                    <li><a class="nav-link" href="../index.html">Home</a></li>
+                    <li><a class="nav-link" href="#">Our Works</a></li>
+                    <li><a class="nav-link" href="career.html">Vacancy</a></li>
+                    <li><a class="nav-link" href="contact.html">Contact Us</a></li>
+
+                </ul>
+            </div>
+
+            <div class="aboutright-body">
+                <div class="footer-title">
+                    <h3>Support</h3>
+                </div>
+                <ul class="forfooterlink">
+                    <li> <a class="nav-link" href="#">Help</a></li>
+                    <li> <a class="nav-link" href="#">Company Policies</a></li>
+                 
+                </ul>
+            </div>
+
+            <div class="aboutright-body">
+                <div class="footer-title"><h3>Contact Us</h3></div>
+                <ul class="contact-us-fontawesome">
+                    <li>
+                        <a class="nav-link" href="#"><i class="fa fa-map-marker" aria-hidden="true"></i><span
+                                id="contact-fontawesome">P848+2Q6,<br>  Durbar Marg, Kathmandu 44600l</span></a>
+                    </li>
+                    <li>
+                    <a class="nav-link" href="#"><i class="fa fa-phone" aria-hidden="true"></i><span
+                                   id="contact-fontawesome">01-4153051</span></a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#"><i class="fa fa-envelope" aria-hidden="true"></i><span
+                                       id="contact-fontawesome">info@nea.org.np</span></a>
+                        </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <div class="copyright-footer">
+        <p>2022 Nepal Electricity Authority. Ltd. | All Rights Reserved </p>
+    </div>
+    <script src="../java/form.js"></script>
+</body>
+
+</html>

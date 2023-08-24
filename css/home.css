@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('./var.css');
+    
+
+
+#ourexpertise , #emoji ,#ourclient , #ourproduct {
+
+    margin:7% 0 ;
+}
+.title h2{
+    text-align: center;
+    margin: 2rem 0;
+    padding: 2.2rem 0 2rem 0;
+}
+
+
+
+#calltoaction {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    width: 100%;
+    height: 100%;
+    padding: 0rem 1rem;
+    margin: 2rem 0;
+    background-color: var(--background);
+    
+}
+
+.column1 {
+    width: 37%;
+    display: flex;
+    flex-flow: row wrap;
+    align-self: center;
+    padding-left: 2rem;
+
+}
+
+.column1 h1 {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+}
+
+#calltoaction p {
+    width: 528px;
+    font-size: 1.5rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    padding: 0 0 2rem 0;
+
+}
+
+#startyour {
+    background-color: var(--off-blue);
+    width: 17rem;
+    height: 10vh;
+    border: none;
+    margin: 1.4rem 0;
+    color: var(--off-white);
+    font-size: 1.3rem;
+    cursor: pointer;
+    border-radius: 4px;
+}
+#startyour:hover{
+    background-color:var(--white);
+    color: var(--off-blue);
+    border: 1px solid var(--off-blue);
+
+}
+
+.column2 {
+    width: 45%;
+    height:9%;
+    overflow: hidden;
+}
+
+.column2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#ourexpertise {
+    width: 100%;
+}
+
+.ourclinets-title h2,
+.ourexpertise-title h2,
+.ourproduct-title  h2 {
+
+    text-align: center;
+    padding: 4rem 0 1rem 0;
+    text-transform: capitalize;
+    letter-spacing: 0.01rem;
+  
+}
+
+.ourexpertise-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 1.4rem 0.2rem;
+}
+
+.ourexpertise-container-body{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    padding: 1.4rem  0 0 1.2rem;
+}
+
+.ourexpertise-imagebox {
+    width: 29%;
+    height: 30vh;
+    margin-bottom: 4rem;
+}
+
+.ourexpertise-imagebox p {
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: var(--text-font);  
+
+}
+
+.ourexpertise-image {
+    width: 100%;
+    height: 30vh;
+
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#whatyoudo {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    justify-self: flex-end;
+    width: 100%;
+    background-color: var(--off-white);
+}
+
+.whatyoudo-column1 {
+    padding-left: 2rem;
+    width: 50%;
+
+}
+
+.whatyoudo-column1 p,
+.whatyoudo-column1 h1,
+#learnmore,
+.ourproduct-body-contain-text h3 ,
+.ourproduct-body-contain-text {
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    font-family: 'Poppins';
+    font-style: normal;
+}
+
+.whatyoudo-column1 p,
+.whatyoudo-column1 h1
+{
+    padding: 2rem 0.2rem;
+}
+
+.whatyoudo-column1 p {
+ 
+    font-size: 18px;
+    line-height: 27px;
+    padding: 1rem 0;
+}
+
+.whatyoudo-column1 h1,
+#learnmore {
+    width: 221px;
+    font-weight: 700;
+    line-height: 30px;
+    color: var(--off-blue);
+}
+
+.computerboy {
+    height: 550px;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 2rem 0;
+
+}
+
+.computerboy img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+#emoji {
+    background-color: var(--off-blue);
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    align-items: center;
+    text-decoration: none;
+}
+
+.emojiimage {
+ 
+    height: 120px;
+    padding: 1rem 0;
+
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+
+}
+
+.emojibody p {
+    padding: 0 0 0.3rem 0.3rem;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: var(--text-font);
+    color: var(--off-white);
+
+}
+#ourclients{
+   
+    background-color: rgba(42, 174, 255, 0.05);
+}
+
+.ourclients-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+   
+}
+
+.ourclients-container-body {
+    width: 25%;
+    height: 150px;
+
+}
+
+.ourclients-image {
+    width: 100%;
+    height: 100px;
+    object-fit: contain;
+}

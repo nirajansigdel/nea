@@ -1,0 +1,21 @@
+@media all and (max-width:600px) {
+    #whytojoin {
+        background-image: url(../image/career/whytoimage.jpg);
+        background-attachment: fixed;
+        background-position: center bottom;
+        background-size: cover;
+        padding: 4.5rem 2%;
+        position: relative;
+    }
+
+    #numberofvacaneies{
+        display: flex;
+        flex-direction: column;
+
+    }
+    #numberofvacaneies a{
+        width: 35%;
+    }
+     
+ 
+}

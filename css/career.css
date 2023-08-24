@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('./var.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#whytojoin
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    margin: 4rem 0 0 0 ;
+    text-align: center;
+    color:var(--white);
+    font-size: 2rem;
+}
+#whytojoin {
+    background-image: url(../image/career/whytoimage.jpg);
+    background-attachment: fixed;
+    background-position: center bottom;
+    background-size: cover;
+    padding: 4.5rem 22%;
+    position: relative;
+}
+#whytojoin .title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    color: rgba(255, 255, 255, 0.948);
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: .9px;
+    transform: scaleY(1.1);
+}
+#whytojoin .description {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    color: rgb(234, 234, 234);
+    position: relative;
+}
+#whytojoin .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.578);
+}
+#numberofvacaneies{
+    display: flex;
+    justify-content: space-between;
+}
+#vacancies{ 
+   background-color: var(--background);
+    margin: 0 0 4rem 0;
+}
+.vacancies-body{
+    padding: 1rem;
+}
+.vacanice-title h2{
+    padding:  1rem 0 2rem 1rem;
+}
+.vacaneiesnumber
+{
+padding: 0.5rem 0;
+}
+.internshipname p{
+    font-size: 1.2rem;
+    font-weight: 500;
+ }    
+.internshipname{
+        text-decoration: none;
+    }
+#numberofvacaneies a{
+    text-decoration: none;
+    color: var(--black);
+
+}
+#numberofvacaneies a{
+    width: 10%;
+}
+ .applybutton{
+    width:100%;
+    margin: 0.2rem 0;
+    background-color: var(--off-blue);
+    height: 9vh;
+    border: none;
+    margin: 1.4rem 0;
+    color: var(--off-white);
+    font-size: 1.3rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.4rem;
+}
+.applybutton:hover{
+    background-color:var(--white);
+    color: var(--off-blue);
+    border: 1px solid var(--off-blue);
+   
+    
+
+}

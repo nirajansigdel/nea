@@ -1,0 +1,63 @@
+@media all and (max-width: 600px) {
+
+
+  
+.formtitle h2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+
+}
+ input{
+    display: flex;
+    flex-direction: column;
+}
+.form-container{
+ display: flex;
+ flex-direction: column;
+}
+.form-container-textarea{
+    width: 100%;
+    padding-left:rem;
+    
+}
+
+.inputbox input{
+width:100%;
+height: 48px;
+ }
+ .inputbox input:hover{
+ width: 100%;
+ height: 48px;
+ }
+ 
+ .inputbox textarea{
+    width:100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+ }
+ .map{
+    display: none;
+ }
+
+ #submit
+ {
+ height: 41px;
+width: 30%;
+left: 623px;
+top: 990px;
+border-radius: 4px;
+padding: 10px, 38px, 10px, 38px;
+background-color: var(--off-blue);
+border: 1px solid var(--off-blue);
+ cursor: pointer;
+ font-size: 1rem;
+ color: var(--white);
+ margin: 1px 0 3% 50%;
+ }
+
+
+
+}
